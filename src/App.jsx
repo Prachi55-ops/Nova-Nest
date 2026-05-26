@@ -1,9 +1,14 @@
 import React from 'react'
-
+import { Route, Routes } from 'react-router-dom'
+import Footer from './components/Footer'
+import './App.css';
 const App = () => {
   return (
-    <div>
-      <h1>nova nest frontend</h1>
+    <div >
+      <Routes>
+        <Route path='/' element={<Footer/>}/>
+
+      </Routes>
     </div>
   )
 }
