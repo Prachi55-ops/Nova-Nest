@@ -1,4 +1,10 @@
-.custom-navbar {
+ * {
+
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}.custom-navbar {
     background-color: #E9EAEC;
     height: 93px;
     
@@ -31,6 +37,12 @@
     /* margin: 0; */
     /* padding: 0; */
     margin-top: 20px;
+
+}.nav-item:hover{
+    text-decoration: underline;
+    color: black;
+}.nav-link:hover{
+    color: #6b6c6e;
 
 }
 
@@ -65,4 +77,12 @@
     height: 20px;
     width: 80px;
     color: #D1D4D8;
+}.search-box{
+    border: 2px;
+    height: 30px;
+    width: 90px;
+}.container{
+    height: 30px;
+    width: 80px;
+    color: black;
 }

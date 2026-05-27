@@ -7,10 +7,9 @@ import './navbar.css';
 const App = () => {
   return (
     <div >
-      <Routes>
-        {/* <Route path='/' element={<Footer/>}/> */}
-        <Route path='/' element={<Navbar/>}/>
-      </Routes>
+        <Navbar/>
+     <Footer/>
+   
     </div>
   )
 }
