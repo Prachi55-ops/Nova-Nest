@@ -1,7 +1,7 @@
 import React from 'react'
 import { Route, Routes } from 'react-router-dom'
 import Footer from './components/Footer'
-import './App.css';
+import './footer.css';
 const App = () => {
   return (
     <div >

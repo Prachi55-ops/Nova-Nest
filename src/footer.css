@@ -1,0 +1,299 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+* {
+
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+
+.footer {
+  background-color: #111;
+  color: white;
+
+  height: 344px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  padding-left: 10%;
+  padding-right: 10%;
+  padding-bottom: 40px;
+  padding-top: 40px;
+}
+
+.footer-box1 h2 {
+
+  font-size: 28px;
+  margin-top: -25px;
+
+  font-weight: 500;
+}
+
+.footer-box1 h3 {
+  font-size: 24px;
+  /* line-height: 1.8; */
+  font-weight: 400;
+  margin-top: 13px;
+}
+
+.footer-box1 p {
+  font-size: 18px;
+  /* line-height: 1.8; */
+  font-weight: 350;
+  /* margin-left: 1px; */
+  margin-top: 20px;
+}
+
+.footer-box ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+
+.footer-box ul li {
+  margin-bottom: 10px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.footer-box ul li:hover {
+  color: orange;
+  padding-left: 5px;
+}
+
+.copy {
+  margin-top: 20px;
+  font-size: 14px;
+}
+
+.email-box {
+
+
+  width: 241px;
+  height: 51px;
+  border: 2px solid white;
+  display: flex;
+  margin-top: 17px;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 10px;
+  border-radius: 5px;
+}
+
+.email-box input {
+  background: transparent;
+  border: none;
+  outline: none;
+  color: white;
+  font-size: 16px;
+  width: 100%;
+}
+
+.email-box input::placeholder {
+  color: #999;
+}
+
+.email-box button {
+  background: transparent;
+  border: none;
+  color: white;
+  font-size: 22px;
+  cursor: pointer;
+}
+
+.footer-box2 h2 {
+  margin-bottom: 27px;
+  font-size: 23px;
+  font-weight: 400;
+      margin-top: -20%;
+}
+
+.footer-box2 p {
+  font-weight: 400;
+  font-size: 14px;
+
+}
+
+.footer-box3 h2 {
+  font-size: 23px;
+  margin-top: 37px;
+  font-weight: 400;
+  margin-bottom: 20px;
+}
+
+.footer-box3 p {
+  font-weight: 300;
+  font-size: 14px;
+}
+
+.footer-box4 h2 {
+  font-size: 23px;
+  margin-top: -8px;
+  margin-bottom: 20px;
+  font-weight: 400; 
+ } 
+
+.footer-box4 p {
+  font-weight: 300;
+  font-size: 14px;
+}
+/* मुख्य फ़ूटर कंटेनर */
+.custom-footer {
+    background-color: #000000;
+    color: #ffffff;
+    padding: 60px 40px;
+    width: 100%;
+}
+
+/* 5 कॉलम्स को एक लाइन में सेट करने वाला रैपर */
+.footer-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap; /* मोबाइल स्क्रीन पर रिस्पॉन्सिव रखने के लिए */
+   width: 100%;
+  
+    gap: 60px;
+}
+
+/* व्यक्तिगत कॉलम की चौड़ाई */
+.footer-section {
+    flex: 1;
+    min-width: 200px; /* छोटे डिवाइस पर टूटने से बचाएगा */
+}
+
+/* टाइटल्स की स्टाइलिंग */
+.footer-logo {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.section-title, .sub-title {
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 16px;
+}
+
+/* टेक्स्ट और सूचियों का सामान्य लुक */
+.footer-text {
+    color: #a0a0a0;
+    font-size: 14px;
+    line-height: 1.6;
+    margin-bottom: 12px;
+}
+
+.footer-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.footer-list li {
+    color: #a0a0a0;
+    font-size: 14px;
+    margin-bottom: 18px;
+    cursor: pointer;
+    transition: color 0.2s ease;
+}
+
+.footer-list li:hover {
+    color: #ffffff;
+}
+
+/* ईमेल इनपुट बॉक्स */
+.email-input-box {
+    display: flex;
+    border: 1px solid #a0a0a0;
+    border-radius: 4px;
+    max-width: 200px;
+    overflow: hidden;
+}
+
+.email-input-box input {
+    background: transparent;
+    border: none;
+    color: #ffffff;
+    padding: 8px 12px;
+    font-size: 13px;
+    width: 80%;
+    outline: none;
+}
+
+.email-input-box button {
+    background: transparent;
+    border: none;
+    color: #ffffff;
+    padding: 0 10px;
+    cursor: pointer;
+}
+
+/* डाउनलोड एरिया (QR & Stores) */
+.app-sub-text {
+    color: #a0a0a0;
+    font-size: 12px;
+    margin-bottom: 12px;
+}
+
+.app-flex-box {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin-bottom: 20px;
+}
+
+.qr-container {
+    background-color: #ffffff;
+    padding: 4px;
+    border-radius: 4px;
+    width: 80px;
+    height: 80px;
+}
+
+.qr-container img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.store-buttons {
+    max-width: 110px;
+}
+
+.store-buttons img {
+    width: 100%;
+    display: block;
+    border-radius: 3px;
+}
+
+/* सोशल आइकॉन्स */
+.social-icons {
+    display: flex;
+    gap: 20px;
+}
+
+.social-icons a {
+    color: #ffffff;
+    font-size: 20px;
+    transition: transform 0.2s ease, color 0.2s ease;
+}
+
+.social-icons a:hover {
+    color: #a0a0a0;
+    transform: scale(1.1);
+}.footer-box5 h2{
+  font-size: 23px;
+  margin-top: -9px;
+  font-weight: 400;
+  margin-bottom: 20px;
+}.footer-box5 p{
+   font-weight: 400;
+  font-size: 14px;
+      color: gray;
+}
