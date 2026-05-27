@@ -56,6 +56,27 @@ const footer = () => {
           </p>
          
         </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        
 {/* 
         <div className="copy">
           <p>&copy; 2026 NovaNest. All Rights Reserved.</p>
