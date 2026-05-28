@@ -1,10 +1,10 @@
 import React from 'react'
-
+import { FiSearch } from "react-icons/fi";
 const Navbar = () => {
     return (
         <>
 
-            <nav className=" custom-navbar">
+            <nav className=" head-navbar">
                 <div className="nav-container">
                     <div className='navbar-box'>
                         <div className='logo-box '>
@@ -24,6 +24,7 @@ const Navbar = () => {
                         </button> */}
 
                         {/* Nav Links */}
+                        
                         <div className="nav-item nav-underline ">
 
                             <a className="nav-link active" aria-current="page" href="/">Home</a>
@@ -32,12 +33,14 @@ const Navbar = () => {
                             <a className="nav-link active" aria-current="page" href="/">Contact</a>
 
                         </div>
-                        <div className="container d-flex">
-                            <form class="d-flex" role="search">
-                                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" />
-                                <button class="btn btn-outline-success" type="submit">Search</button>
+                        <div className="container-search">
+                            <form action="" className="search-box">
+                                <input placeholder="What are you looking for?" type="text" name="Q" /> 
+                     <button type="submit" ><FiSearch /></button>
                             </form>
+
                         </div>
+                        <div className='icons'></div>
                     </div>
 
 
