@@ -1,0 +1,14 @@
+.offer-box{
+    height: 50px;
+    width: 100%;
+    width: 700;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}.sale-para{
+  color: #ffffff;
+  font-size: 15px;
+  font-weight: 100;
+  margin-left: -40px;
+}
