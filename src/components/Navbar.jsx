@@ -32,9 +32,9 @@ const Navbar = () => {
                         <div className='col-sm-4 item-box'>
                             <ul className='nav-item' >
                                 <li className='nav-hover' ><a className="nav-link active" aria-current="page" href="/">Home</a></li>
-                                <li className='nav-hover' ><a className="nav-link" href="/">Shop</a> </li>
+                                <li className='nav-hover' ><a className="nav-link" href="/">Contact</a> </li>
                                 <li className='nav-hover '><a className="nav-link" href="/">About</a></li>
-                                <li className='nav-hover'><a className="nav-link active" aria-current="page" href="/">Contact</a></li>
+                                <li className='nav-hover'><a className="nav-link active" aria-current="page" href="/">Sign Up</a></li>
                             </ul>
                         </div>
                         <div className='col-sm-1'></div>
