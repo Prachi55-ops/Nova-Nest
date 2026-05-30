@@ -69,15 +69,15 @@
      align-items: center;
      border-radius: 5px;
      padding: 10px 20px;
+     height: 40px;
 
  }
 
  .search-box input {
      border: 0;
      background: #ffffff;
-
      outline: none;
-     font-size: 14px;
+     font-size: 16px;
 
  }
 
@@ -99,4 +99,12 @@
      background-color: transparent;
      border: none;
      font-size: 20px;
- }
+     margin-top: 5px;
+ }.cart-icons{
+        display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+    font-size: 22px;
+    margin-left: 27px;
+ } 

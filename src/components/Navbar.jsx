@@ -1,5 +1,8 @@
 import React from 'react'
 import { FiSearch } from "react-icons/fi";
+import { GoHeart } from "react-icons/go";
+import { HiOutlineShoppingCart } from "react-icons/hi2"
+import { RiUser3Line } from "react-icons/ri";
 const Navbar = () => {
     return (
         <>
@@ -37,19 +40,15 @@ const Navbar = () => {
                         <div className='col-sm-1'></div>
                         <div className=" col-sm-2 container-search">
                             <form action="" className="search-box">
-                                <input placeholder="What are you looking for?" type="text" name="Q" />
+                                <input placeholder="Search" type="text" name="Q" />
                                 <button type="submit " className='search-button' ><FiSearch /></button>
-                                
+
                             </form>
-                               </div>
-<div className='col-sm-2 cart-icons'> ne fkfsefsfw</div>
-                     
-
-
-
+                             <div className=' col-sm-1 cart-icons'> <GoHeart /> <HiOutlineShoppingCart /><RiUser3Line /></div>
+                              <div className='col-sm-1'></div>
+                        </div>
+                      
                     </div>
-
-
                 </div>
             </nav>
 
