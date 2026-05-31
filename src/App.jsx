@@ -4,16 +4,16 @@ import Footer from './components/Footer'
 import './footer.css';
 import Navbar from './components/Navbar';
 import './navbar.css';
-import Language from './components/Language'
-import './language.css';
+import Topbar from './components/Topbar'
+import './topbar.css';
 const App = () => {
   return (
-    <div >
-      <Language />
+    <>
+      <Topbar/>
       <Navbar />
       <Footer />
 
-    </div>
+    </>
   )
 }
 
