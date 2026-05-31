@@ -54,35 +54,29 @@ const footer = () => {
             Terms Of Use<br /><br />
             FAQ<br /><br />
             Contact<br /><br />
-
           </p>
-
         </div>
-
-     
-
         <div className="footer-box5">
           <h2 >Download App</h2>
           <p>Save $3 with App New User Only</p>
-       
+
           <div className="app-flex-box">
             <div className="qr-container">
-              <img 
-                src="public/QR imahe.webp" 
-                alt="QR Code" 
+              <img
+                src="src/assets/images/QR imahe.webp"
+                alt="QR Code"
               />
             </div>
             <div className="store-buttons">
               <a href="#playstore">
-                <img src="public/f233865f2fff1a5cab5a148ce35fdf4ecf49fbf7.webp" alt="Google Play" />
+                <img src="src/assets/images/f233865f2fff1a5cab5a148ce35fdf4ecf49fbf7.webp" alt="Google Play" />
               </a>
               <a href="#appstore">
-                <img src="public/badge_appstore-lrg.png" alt="App Store" />
+                <img src="src/assets/images/badge_appstore-lrg.png" alt="App Store" />
               </a>
             </div>
           </div>
 
-          {/* सोशल मीडिया आइकॉन्स */}
           <div className="social-icons">
             <a href="#fb"><FaFacebookF /></a>
             <a href="#tw"><FaTwitter /></a>
