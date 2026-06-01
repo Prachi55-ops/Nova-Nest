@@ -1,35 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
 
 * {
-
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
   font-family: 'Poppins', sans-serif;
 }
-
-
-.footer {
-  background-color: #111;
+.footer-container {
+   background-color: #111;
   color: white;
-
-  height: 344px;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  align-items: center;
-  width: 100%;
-  padding-left: 10%;
-  padding-right: 10%;
-  padding-bottom: 40px;
-  padding-top: 40px;
+ height: 344px;
+      width: 100%;
 }
 
 .footer-box1 h2 {
-
   font-size: 28px;
-  margin-top: -25px;
-
   font-weight: 500;
 }
 
@@ -39,42 +21,12 @@
   font-weight: 400;
   margin-top: 13px;
 }
-
 .footer-box1 p {
   font-size: 18px;
-  /* line-height: 1.8; */
   font-weight: 350;
-  /* margin-left: 1px; */
   margin-top: 20px;
 }
-
-.footer-box ul {
-  list-style: none;
-  padding: 0;
-  display: flex;
-  flex-direction: row;
-  gap: 20px;
-}
-
-.footer-box ul li {
-  margin-bottom: 10px;
-  cursor: pointer;
-  transition: 0.3s;
-}
-
-.footer-box ul li:hover {
-  color: orange;
-  padding-left: 5px;
-}
-
-.copy {
-  margin-top: 20px;
-  font-size: 14px;
-}
-
 .email-box {
-
-
   width: 241px;
   height: 51px;
   border: 2px solid white;
@@ -108,15 +60,17 @@
 }
 
 .footer-box2 h2 {
-  margin-bottom: 27px;
+
   font-size: 23px;
   font-weight: 400;
       margin-top: -20%;
+
 }
 
 .footer-box2 p {
   font-weight: 400;
   font-size: 14px;
+  margin-top: 25px;
 
 }
 
@@ -143,7 +97,7 @@
   font-weight: 300;
   font-size: 14px;
 }
-/* मुख्य फ़ूटर कंटेनर */
+
 .custom-footer {
     background-color: #000000;
     color: #ffffff;
@@ -151,24 +105,23 @@
     width: 100%;
 }
 
-/* 5 कॉलम्स को एक लाइन में सेट करने वाला रैपर */
+
 .footer-wrapper {
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
-    flex-wrap: wrap; /* मोबाइल स्क्रीन पर रिस्पॉन्सिव रखने के लिए */
+    flex-wrap: wrap; 
    width: 100%;
   
     gap: 60px;
 }
 
-/* व्यक्तिगत कॉलम की चौड़ाई */
+
 .footer-section {
     flex: 1;
-    min-width: 200px; /* छोटे डिवाइस पर टूटने से बचाएगा */
+    min-width: 200px;
 }
 
-/* टाइटल्स की स्टाइलिंग */
 .footer-logo {
     font-size: 24px;
     font-weight: bold;
@@ -181,7 +134,6 @@
     margin-bottom: 16px;
 }
 
-/* टेक्स्ट और सूचियों का सामान्य लुक */
 .footer-text {
     color: #a0a0a0;
     font-size: 14px;
@@ -207,7 +159,6 @@
     color: #ffffff;
 }
 
-/* ईमेल इनपुट बॉक्स */
 .email-input-box {
     display: flex;
     border: 1px solid #a0a0a0;
@@ -234,7 +185,7 @@
     cursor: pointer;
 }
 
-/* डाउनलोड एरिया (QR & Stores) */
+
 .app-sub-text {
     color: #a0a0a0;
     font-size: 12px;
@@ -272,7 +223,7 @@
     border-radius: 3px;
 }
 
-/* सोशल आइकॉन्स */
+
 .social-icons {
     display: flex;
     gap: 20px;
@@ -296,4 +247,14 @@
    font-weight: 400;
   font-size: 14px;
       color: gray;
+}.footer-mainbox{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+   gap: 60px;
+  /* padding-left: 10%;
+  padding-right: 10%;
+  padding-bottom: 40px;
+  padding-top: 40px; */
+ 
 }
