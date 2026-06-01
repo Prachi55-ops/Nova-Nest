@@ -9,8 +9,7 @@ const footer = () => {
       <footer className='footer-container'>
         <div className='conatiner '>
           <div className='row footer-mainbox'>
-            <div className='col-sm-1'></div>
-            <div className='col-sm-2 footer-box1'>
+            <div className='col-sm-3 footer-box1'>
 
               <h2>Nova Nest  <h3>Subscribe</h3>
               </h2>
@@ -60,8 +59,8 @@ const footer = () => {
                 </p>
               </div>
             </div>
-            <div className='col-sm-2'>
-              <div className="footer-box5">
+            <div className='col-sm-3 footer-box5'>
+            
                 <h2 >Download App</h2>
                 <p>Save $3 with App New User Only</p>
 
@@ -89,9 +88,9 @@ const footer = () => {
                   <a href="#in"><FaLinkedinIn /></a>
                 </div>
               </div>
-            </div>
+           
 
-            <div className='col-sm-1'></div>
+           
 
           </div>
         </div>
@@ -105,5 +104,3 @@ const footer = () => {
 }
 
 export default footer
-
-
