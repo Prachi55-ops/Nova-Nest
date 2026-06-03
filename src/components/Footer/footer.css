@@ -10,6 +10,7 @@
   color: white;
   padding: 40px 20px;
    width: 100%;
+   padding-left: 100px;
     
 }
   
@@ -221,8 +222,7 @@
 
     .footer-mainbox{
         flex-direction:column;
-        align-items:flex-start;
-        gap:30px;
+       
     }
 
     .footer-box1,
@@ -231,6 +231,7 @@
     .footer-box4,
     .footer-box5{
         width:100%;
+        margin-bottom: 20px;
     }
 
     .footer-box1 h2{

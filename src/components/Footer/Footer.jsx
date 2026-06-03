@@ -7,9 +7,9 @@ const footer = () => {
     <>
 
       <footer className='footer-container'>
-        <div className='conatiner '>
+        <div className='conatiner-fluid '>
           <div className='row footer-mainbox'>
-            <div className='col-sm-3 footer-box1'>
+            <div className='col-12 col-md-3 footer-box1'>
 
               <h2>Nova Nest  <h3>Subscribe</h3>
               </h2>
