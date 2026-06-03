@@ -31,6 +31,9 @@
     outline: none;
     border: 0;
     background: transparent;
+    font-size: large;
+    
 }.language-select option{
     color: black;
+  
 }

@@ -12,6 +12,9 @@ const App = () => {
       <Topbar/>
       <Navbar />
       <Footer />
+      <Routes>
+        <Route path='/' element></Route>
+      </Routes>
 
     </>
   )
