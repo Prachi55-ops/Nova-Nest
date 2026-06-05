@@ -10,14 +10,25 @@ function Home() {
     <>
     <Topbar/>
     <Navbar/>
-      <div className='container'>
+      <div className='container-home'>
         <div className='row home-box '>
         
             <div className='col-sm-1'></div>
             <div className="col-sm-3 Side-bar">
                 <div className='Side-bar-box'>
-                    <ul>
+                    <ul className='fashion-list'>
                         <li> Women's Fashion</li>
+                        <br/>
+                         <li> Men's Fashion</li>     <br/>
+                          <li> Electronics</li>     <br/>
+                           <li> Home & Lifestyle</li> <br/>
+                            <li> Medicine</li> <br/>
+                             <li> Sports & Outdoor</li> <br/>
+                             <li> Baby's & Toys</li> <br/>
+                             <li> Groceries & Pets</li> <br/>
+                             <li> Health & beauty</li> <br/>
+
+
                     </ul>
                 </div>
             </div>

@@ -1,9 +1,21 @@
-.home-box{
-    background-color: #E9EAEC;
+.container-home{
+    background-color: #ffffff;
     width: auto;
     max-width: 700;
+    height: 1082px;
 
 }.Side-bar{
-    background-color: aqua;
+    display: flex;
+   margin-left: 40px;
+}.Side-bar-box{
+    background-color: #FFFFFF;
+    padding: 20px 30px;  
+   border-right: 1px solid #D1D4DB;
+
+
+}.fashion-list{
+list-style: none;
+    font-size: 17px;
+    
     
 }
