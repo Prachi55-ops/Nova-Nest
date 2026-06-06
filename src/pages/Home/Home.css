@@ -1,12 +1,15 @@
 .container-home{
     background-color: #ffffff;
     width: auto;
-    max-width: 700;
     height: 1082px;
 
+}
+.home-box{
+ display: flex;
 }.Side-bar{
     display: flex;
-   margin-left: 40px;
+   width: 217px;
+  
 }.Side-bar-box{
     background-color: #FFFFFF;
     padding: 20px 30px;  
@@ -15,21 +18,24 @@
 
 }.fashion-list{
 list-style: none;
-    font-size: 17px;
+    font-size: 15px;
     
     
-}.dropdown-menu{
-    width: 100%;
-    border-top: none;
-    border-radius:0 ;
-    list-style: none;
-}.dropdown-item{
-    padding: 10px 15px;
-    text-decoration: none;
-}.dropdown-item:hover{
-    color: #c6cacf;
-}.fashion-list.dropdown-toggel::after{
-    float:right;
-    margin-top: 8px;
-    content: ">";
+}.hero-box{
+    width: 892px;
+ height: auto;
+    background-color: black;
+    margin-top: 40px;
+    
+}.hero-img img{
+        height: 341px;
+    width: 500px;
+    /* padding: 30px 50px; */
+    margin-top: 50px;
+    /* margin-right: -57px; */
+    margin-left: 181px;
+}.hero-content{
+    color: white;
+}.hero-section{
+    display: flex;
 }
