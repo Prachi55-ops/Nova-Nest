@@ -18,4 +18,18 @@ list-style: none;
     font-size: 17px;
     
     
+}.dropdown-menu{
+    width: 100%;
+    border-top: none;
+    border-radius:0 ;
+    list-style: none;
+}.dropdown-item{
+    padding: 10px 15px;
+    text-decoration: none;
+}.dropdown-item:hover{
+    color: #c6cacf;
+}.fashion-list.dropdown-toggel::after{
+    float:right;
+    margin-top: 8px;
+    content: ">";
 }

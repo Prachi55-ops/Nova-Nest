@@ -17,7 +17,35 @@ function Home() {
             <div className="col-sm-3 Side-bar">
                 <div className='Side-bar-box'>
                     <ul className='fashion-list'>
-                        <li> Women's Fashion</li>
+                    <li className="dropdown-button">
+  <a
+    className="nav-link dropdown-toggle"
+    href="#"
+    role="button"
+    data-bs-toggle="dropdown"
+    aria-expanded="false"
+  >
+   Women's fashion
+  </a>
+  <ul className="dropdown-menu">
+    <li>
+      <a className="dropdown-item" href="#">
+        Action
+      </a>
+    </li>
+    <li>
+      <a className="dropdown-item" href="#">
+        Another action
+      </a>
+    </li>
+    <li>
+      <a className="dropdown-item" href="#">
+        Something else here
+      </a>
+    </li>
+  </ul>
+</li>
+
                         <br/>
                          <li> Men's Fashion</li>     <br/>
                           <li> Electronics</li>     <br/>
