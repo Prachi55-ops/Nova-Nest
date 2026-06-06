@@ -6,6 +6,7 @@ import "../../components/Navbar/navbar.css"
 import Footer from '../../components/Footer/Footer'
 import "../../components/Footer/footer.css"
 import { MdKeyboardArrowRight } from "react-icons/md";
+import { FaApple } from "react-icons/fa";
 
 function Home() {
   return (
@@ -37,19 +38,22 @@ function Home() {
               </ul>
             </div>
           </div>
-          <div className="col-sm-5 hero-box">
+          <div className="col-sm-9 hero-box">
             <div className='Row hero-section '>
               <div className='col-sm-6 hero-content'> 
-                <h1 > hero section</h1>
+                <p ><FaApple />
+</p>
               </div>
             <div className=' col-sm-6 hero-img'>
-                <img src='src/assets/images/iphone14pro-tradein.jpg'></img>
+                <img src='src/assets/images/iphone14pro-tradein.jpg'
+                alt='iphone 14 pro'
+                ></img>
             </div>
 
           
           </div>
           </div>
-          <div className='col-sm-2'></div>
+     
         </div>
       </div>
       <Footer />
