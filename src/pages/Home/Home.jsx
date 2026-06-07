@@ -35,12 +35,12 @@ function Home() {
               </select>
               <select className='fashion-dropdown'>
                 <option > Men's Fashion</option>
-                <option> Kurta Sets For Puja</option>
-                <option> Blazer for Events</option>
+                <option> Kurta Sets </option>
+                <option> Blazer</option>
                 <option> Shirt Pant Fabric</option>
-                <option> Regular Jeans Daily Ware</option>
+                <option> Regular Jeans </option>
                 <option> Trankpants</option>
-                <option> Sherwani for wedding</option>
+                <option> Sherwani </option>
               </select>
               <ul className="fashion-list">
 

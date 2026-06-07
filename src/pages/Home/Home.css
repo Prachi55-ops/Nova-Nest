@@ -88,7 +88,6 @@ text-underline-offset: 10px;
    
 }.hero-btn:hover{
     color: #2d2d2d;
-    transform: scale(1.1);
 }.fashion-dropdown{
  color: #000;
  text-decoration: none;
