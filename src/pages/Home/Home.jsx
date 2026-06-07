@@ -19,11 +19,31 @@ function Home() {
         <div className="row home-box">
 
           {/* Sidebar */}
+          <div className='col-sm-1'></div>
           <div className="col-lg-3 Side-bar">
+
             <div className="Side-bar-box">
+
+              <select className='fashion-dropdown'>
+                <option > Women's Fashion</option>
+                <option> Tops & Tunics</option>
+                <option> Dresses</option>
+                <option> Topa & Bootom Sets</option>
+                <option> Bra & Bralettes</option>
+                <option> Jeans & Jeggings</option>
+                <option> Womens Nightsuits</option>
+              </select>
+              <select className='fashion-dropdown'>
+                <option > Men's Fashion</option>
+                <option> Kurta Sets For Puja</option>
+                <option> Blazer for Events</option>
+                <option> Shirt Pant Fabric</option>
+                <option> Regular Jeans Daily Ware</option>
+                <option> Trankpants</option>
+                <option> Sherwani</option>
+              </select>
               <ul className="fashion-list">
-                <li>Women's Fashion</li>
-                <li>Men's Fashion</li>
+
                 <li>Electronics</li>
                 <li>Home & Lifestyle</li>
                 <li>Medicine</li>
@@ -36,7 +56,7 @@ function Home() {
           </div>
 
           {/* Hero Section */}
-          <div className="col-lg-9 hero-box">
+          <div className="col-lg-7 hero-box">
             <div className="row hero-section align-items-center">
 
               <div className="col-md-6 hero-content">
@@ -45,29 +65,28 @@ function Home() {
                 </p>
 
 
-<br/>
-                <h1>Up to 10%  <br/>Off Voucher</h1>
-                <br/>
+                <br />
+                <h1>Up to 10%  <br />Off Voucher</h1>
+                <br />
 
-                <button className="hero-btn">
-                  Shop Now <p> <HiOutlineArrowRight /></p>
-                </button>
+                <div className="hero-btn">
+                  <span>Shop Now</span>  <p> <HiOutlineArrowRight /></p>
+                </div>
               </div>
 
               <div className="col-md-6 hero-img text-center">
                 <img
                   src={iphoneImage}
                   alt="iPhone 14 Pro"
-               
+
                 />
               </div>
 
             </div>
           </div>
-
+<div className='col-sm-1'></div>
         </div>
       </div>
-
       <Footer />
     </>
   );
