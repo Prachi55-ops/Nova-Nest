@@ -5,6 +5,7 @@ import Navbar from '../../components/Navbar/Navbar'
 import '../../components/Navbar/navbar.css'
 import Footer from '../../components/Footer/Footer'
 import '../../components/Footer/footer.css'
+import { FcGoogle } from "react-icons/fc";
 function Signup() {
   return (
     <>
@@ -25,7 +26,7 @@ function Signup() {
             <input
               type="text"
               className="form-control"
-              placeholder="Enter your name"
+              placeholder="Name"
             />
           </div>
 
@@ -34,7 +35,7 @@ function Signup() {
             <input
               type="email"
               className="form-control"
-              placeholder="Enter your email"
+              placeholder="Email or Phone number"
             />
           </div>
 
@@ -43,12 +44,15 @@ function Signup() {
             <input
               type="password"
               className="form-control"
-              placeholder="Enter password"
+              placeholder=" password"
             />
           </div>
 
-          <button type="submit" className="btn ">
-            Sign Up
+          <button type="submit" className="create-account-btn ">
+           <p>Create Account</p> 
+          </button>
+          <button type="submit" className="signup-google-btn ">
+           <p> <FcGoogle />Signup with Google</p> 
           </button>
         </form>
  </div>
