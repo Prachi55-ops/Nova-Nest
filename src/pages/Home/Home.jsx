@@ -40,7 +40,7 @@ function Home() {
                 <option> Shirt Pant Fabric</option>
                 <option> Regular Jeans Daily Ware</option>
                 <option> Trankpants</option>
-                <option> Sherwani</option>
+                <option> Sherwani for wedding</option>
               </select>
               <ul className="fashion-list">
 
