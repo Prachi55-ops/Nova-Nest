@@ -6,7 +6,11 @@ import '../../components/Navbar/navbar.css'
 import Footer from '../../components/Footer/Footer'
 import '../../components/Footer/footer.css'
 import { FcGoogle } from "react-icons/fc";
-function Signup() {
+import { useNavigate } from 'react-router-dom';
+function Signup()
+ { 
+   const navigate = useNavigate();
+
   return (
     <>
       <Topbar/>
@@ -57,7 +61,9 @@ function Signup() {
           </button>
           
         <div className='login-text'>Already have a account?
-           <button type="buton" className="login-btn ">
+           <button type="button" 
+           className="login-btn" 
+           onClick={() => navigate("/Login")}>
            <p>Log in</p> 
           </button>
         </div>
