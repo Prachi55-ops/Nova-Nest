@@ -1,0 +1,48 @@
+.login-container{
+      background-color: #ffffff;
+    width: 100%;
+    height: 700px;
+}.login-row{
+   display: flex;
+    justify-content: space-between;
+}.login-img img{
+     height: 633px;
+        width: 764px;
+        margin-top: 50px;
+}.login-box h3{
+   font-weight: 400;
+   font-size: 37px;
+   margin-bottom:8px ;
+}.login-box p{
+    font-size: 16px;
+      margin-bottom:30px ;
+          font-weight: 400;
+    
+}.login-box{
+   height: 633px;
+        width: 380px;
+        margin-top: 200px;
+       align-items: center;    
+        
+}.login2-btn{
+       background-color: #DF2648;
+    border-radius: 8px;
+    height: 54px;
+    width: 137px;
+    margin-top: 39px;
+    border: none;
+}.login2-btn p{
+    color: white;
+    font-size: 16px;
+    padding: 14px;
+}.forgetpass{
+    background-color: #ffffff;
+   margin-left: 45px;
+    margin-top: 39px;
+    border: none;
+    border: none;
+}.forgetpass p{
+     color:#DF2648;
+  font-size: 16px;
+  padding: 17px;
+}
