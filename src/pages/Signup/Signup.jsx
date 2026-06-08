@@ -52,9 +52,11 @@ function Signup() {
            <p>Create Account</p> 
           </button>
           <button type="submit" className="signup-google-btn ">
-           <p> <FcGoogle />Signup with Google</p> 
+            <h5 ><FcGoogle /></h5>
+           <p> Signup with Google</p> 
           </button>
         </form>
+        <p >Already have a account?</p>
  </div>
  <div className='col-sm-2'></div>
          </div>
