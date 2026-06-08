@@ -55,8 +55,15 @@ function Signup() {
             <h5 ><FcGoogle /></h5>
            <p> Signup with Google</p> 
           </button>
+          
+        <div className='login-text'>Already have a account?
+           <button type="buton" className="login-btn ">
+           <p>Log in</p> 
+          </button>
+        </div>
+       
         </form>
-        <p >Already have a account?</p>
+         
  </div>
  <div className='col-sm-2'></div>
          </div>
