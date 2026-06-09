@@ -3,9 +3,11 @@ import Topbar from '../../components/Topbar/Topbar'
 import '../../components/Topbar/topbar.css'
 import Navbar from '../../components/Navbar/Navbar'
 import '../../components/Navbar/navbar.css'
-import footer from '../../components/Footer/Footer'
+import Footer from '../../components/Footer/Footer'
 import '../../components/Footer/footer.css'
+import { useNavigate } from 'react-router-dom';
 function Login() {
+   const navigate = useNavigate();
   return (
     <>
     <Topbar/>
@@ -41,7 +43,9 @@ function Login() {
                 <button type="submit" className="login2-btn ">
            <p>Login</p> 
           </button>
-            <button type="button" className="forgetpass ">
+            <button type="button" className="forgetpass " 
+          onClick={() => navigate("/")}>
+            
            <p>Forget Password ? </p> 
           </button>
           </form>
@@ -49,7 +53,7 @@ function Login() {
         <div className='col-sm-2'> </div>
       </div>
     </div>
-      
+      <Footer/>
     </>
   )
 }
