@@ -1,0 +1,31 @@
+.about-img img{
+     height: 609px !important;
+     width: 837px !important;
+}.About-row{
+ display: flex;
+ justify-content: space-between; 
+ margin-top: 50px
+}.about-text h2{
+  font-size: 50px;
+    font-weight: 600;
+    margin-top: 92px;
+}.about-row1{
+    background-color: rgb(255, 255, 255);
+    height: 100px;
+}.about-hightlight h4{
+        color: #818286;
+    font-size: 14px;
+    font-weight: 500;
+
+}.about-hightlight h5{
+      font-size: 14px;
+    color: #000000;
+    font-weight: 500;
+}.about-hightlight{
+      display: flex;
+    padding: 43px 77px;
+    gap: 30px;
+}.about-text p{
+    margin-top: 50px;
+    font-size: 15px;
+}
