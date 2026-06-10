@@ -87,6 +87,28 @@ function About() {
                         </div>
                         <div className="div col-sm-2"></div>
                     </div>
+
+
+                </section>
+                <section className='section-box4'>
+             <div className=" about-row4">
+
+<div className="div col-sm-3"></div>
+<div className="div col-sm-6 desiger-box">
+    <div className='about-row5'></div>
+    <div className="div col-sm-4 sml-desiger-box1"></div>
+    <div className="div col-sm-4 sml-desiger-box1"></div>
+    <div className="div col-sm-4 sml-desiger-box1"></div>
+
+
+</div>
+<div className="div col-sm-3"></div>
+
+
+             </div>
+
+
+
                 </section>
             </div>
             <Footer />

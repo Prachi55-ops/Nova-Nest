@@ -44,7 +44,7 @@
         align-items: center;
 
 }.section-box3{
- height: 500px;
+ height: 375px;
  width: 100%;
 }.sml-box1{
       height: 85px;
@@ -61,10 +61,6 @@
     width: 66px;
     background-color: #000000;
     border-radius: 50%;
-    /* margin-bottom: 47px; */
- 
-
-
 }.icon-shop{
         color: #ffffff;
     padding: 9px 15px;
@@ -87,6 +83,24 @@
     color: #ffffff;
 }.sm-content-box p:hover{
   color: #ffffff;
-}
+}.about-row5{
+    display: flex;
+}.sml-desiger-box1{
+    background-color: #caccd5;
+}.about-row4{
+    display: flex;
+    gap: 50px;
+    align-items: center;
+    justify-content: center;
 
+}
+.section-box4{
+ height: 500px;
+ width: 100%;
+ 
+}.desiger-box{
+    border: 2px solid red;
+    height: 400px;
+    width: 100%;
+}
 
