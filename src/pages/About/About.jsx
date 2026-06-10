@@ -9,6 +9,9 @@ import { AiOutlineShop } from "react-icons/ai";
 import { BiDollarCircle } from "react-icons/bi";
 import { FiShoppingBag } from "react-icons/fi";
 import { TbMoneybag } from "react-icons/tb";
+import { FaInstagram } from "react-icons/fa";
+import { FiTwitter } from "react-icons/fi";
+import { RiLinkedinLine } from "react-icons/ri";
 function About() {
     return (
         <>
@@ -47,43 +50,43 @@ function About() {
                         <div className="div col-sm-2"></div>
                         <div className="div col-sm-2 content-box">
                             <div className='sm-content-box'>  <div className='sml-box1'>
-                            <div className='sml-box2'>
-                                 <div className='icon-shop'> <AiOutlineShop /></div>
+                                <div className='sml-box2'>
+                                    <div className='icon-shop'> <AiOutlineShop /></div>
 
-                        </div></div>
-                        <h4> 10.5k</h4>
-                        <p> Saller active our sites</p>
-                      </div>
+                                </div></div>
+                                <h4> 10.5k</h4>
+                                <p> Saller active our sites</p>
+                            </div>
                         </div>
                         <div className="div col-sm-2 content-box">
-                              <div className='sm-content-box'>  <div className='sml-box1'>
-                            <div className='sml-box2'>
-                                 <div className='icon-shop'><BiDollarCircle /></div>
+                            <div className='sm-content-box'>  <div className='sml-box1'>
+                                <div className='sml-box2'>
+                                    <div className='icon-shop'><BiDollarCircle /></div>
 
-                        </div></div>
-                        <h4> 33k</h4>
-                        <p> Mopnthly Product Sale</p>
-                      </div>
+                                </div></div>
+                                <h4> 33k</h4>
+                                <p> Mopnthly Product Sale</p>
+                            </div>
                         </div>
                         <div className="div col-sm-2 content-box">
-                              <div className='sm-content-box'>  <div className='sml-box1'>
-                            <div className='sml-box2'>
-                                 <div className='icon-shop'> <FiShoppingBag /></div>
+                            <div className='sm-content-box'>  <div className='sml-box1'>
+                                <div className='sml-box2'>
+                                    <div className='icon-shop'> <FiShoppingBag /></div>
 
-                        </div></div>
-                        <h4> 45.5k</h4>
-                        <p> Customer active our sites</p>
-                      </div>
+                                </div></div>
+                                <h4> 45.5k</h4>
+                                <p> Customer active our sites</p>
+                            </div>
                         </div>
                         <div className="div col-sm-2 content-box">
-                              <div className='sm-content-box'>  <div className='sml-box1'>
-                            <div className='sml-box2'>
-                                 <div className='icon-shop'><TbMoneybag /></div>
+                            <div className='sm-content-box'>  <div className='sml-box1'>
+                                <div className='sml-box2'>
+                                    <div className='icon-shop'><TbMoneybag /></div>
 
-                        </div></div>
-                        <h4> 25k</h4>
-                        <p>  Anual gross sale in our sites</p>
-                      </div>
+                                </div></div>
+                                <h4> 25k</h4>
+                                <p>  Anual gross sale in our sites</p>
+                            </div>
                         </div>
                         <div className="div col-sm-2"></div>
                     </div>
@@ -91,21 +94,30 @@ function About() {
 
                 </section>
                 <section className='section-box4'>
-             <div className=" about-row4">
+                    <div className=" about-row4">
 
-<div className="div col-sm-3"></div>
-<div className="div col-sm-6 desiger-box">
-    <div className='about-row5'></div>
-    <div className="div col-sm-4 sml-desiger-box1"></div>
-    <div className="div col-sm-4 sml-desiger-box1"></div>
-    <div className="div col-sm-4 sml-desiger-box1"></div>
+                        <div className="col-sm-3"></div>
+                        <div className="col-sm-2 sml-desiger-box1">
+                            <div className=' designer-img'> <img src='src/assets/images/088149fd5afc043392ee3cbb529f429b3e2098d3.png'></img>
+                            </div>
+                            <h4 >Tom Curise</h4>
+                            <p>Founder & Chairman</p>
+                            <div className='icon-designer'><FiTwitter /><FaInstagram /><RiLinkedinLine /></div>
+                        </div>
+                        <div className="col-sm-2 sml-desiger-box1"> <div className=' designer-img'> <img src='src/assets/images/8438eab9a2fe88af0272adecd83422d0cb7e20d7.png'></img>
+                        </div>
+                            <h4 >Emma Wetson</h4>
+                            <p>Managing Director</p>
+                            <div className='icon-designer'><FiTwitter /><FaInstagram /><RiLinkedinLine /></div></div>
+                        <div className="col-sm-2 sml-desiger-box1"> <div className=' designer-img'> <img src='src/assets/images/088149fd5afc043392ee3cbb529f429b3e2098d3.png'></img>
+                        </div>
+                            <h4 >Will Smitn</h4>
+                            <p>Product Designer</p>
+                            <div className='icon-designer'><FiTwitter /><FaInstagram /><RiLinkedinLine /></div></div>
+                        <div className="col-sm-3"></div>
 
 
-</div>
-<div className="div col-sm-3"></div>
-
-
-             </div>
+                    </div>
 
 
 

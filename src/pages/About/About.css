@@ -95,12 +95,44 @@
 
 }
 .section-box4{
- height: 500px;
+ height: 675px;
  width: 100%;
+ max-width: 1200px;
+ margin: 0 auto;
+
  
-}.desiger-box{
-    border: 2px solid red;
+}.about-row4{
+    display: flex;
+    
+    align-items: center;
+    justify-content: space-between;
+}.sml-desiger-box1{
+      height: 564px;
+    width: 370px;
+    background-color: #ffffff;
+
+}.designer-img img{
+        height: 370px;
+    width: 284px;
+    margin-top: 30px;
+}.designer-img{
+    background-color: #F5F5F5;
     height: 400px;
-    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  
+}.sml-desiger-box1 h4{
+        font-size: 33px;
+    margin-top: 21px;
+    font-weight: 400;
+}.sml-desiger-box1 p{
+    font-size: 15px;
+       
+}.icon-designer{
+   display: flex;
+    gap: 12px;
+    margin-top: 14px;
+    font-size: 20px;
 }
 
