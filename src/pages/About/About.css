@@ -28,4 +28,65 @@
 }.about-text p{
     margin-top: 50px;
     font-size: 15px;
+}.about-row3{
+    display: flex;
+    gap: 50px;
+    align-items: center;
+    justify-content: center;
+    margin-top: 127px;
+}.content-box{
+        border: 2px solid #caccd5;
+        height: 230px;
+        width: 270px;
+        border-radius: 5px;
+       display: flex;
+        justify-content: center;
+        align-items: center;
+
+}.section-box3{
+ height: 500px;
+ width: 100%;
+}.sml-box1{
+      height: 85px;
+    width: 85px;
+    background-color: #c7c9d2;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+
+}.sml-box2{
+       height: 66px;
+    width: 66px;
+    background-color: #000000;
+    border-radius: 50%;
+    /* margin-bottom: 47px; */
+ 
+
+
+}.icon-shop{
+        color: #ffffff;
+    padding: 9px 15px;
+    font-size: 38px;
+}.sm-content-box h4{
+    font-size: 33px;
+}.sm-content-box{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}.content-box:hover{
+    background-color: #DB4444;
+}.sml-box1:hover{
+    background-color:#f1948a ;
+}.sml-box2:hover{
+    background-color: #ffffff;
+}.icon-shop:hover{
+    color: #000000;
+}.sm-content-box h4:hover{
+    color: #ffffff;
+}.sm-content-box p:hover{
+  color: #ffffff;
 }
+
+
