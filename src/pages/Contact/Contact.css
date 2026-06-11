@@ -1,0 +1,29 @@
+.contact-row1{
+    background-color: rgb(255, 255, 255);
+    height: 100px;
+}.contact-hightlight h4{
+        color: #818286;
+    font-size: 14px;
+    font-weight: 500;
+
+}.contact-hightlight h5{
+      font-size: 14px;
+    color: #000000;
+    font-weight: 500;
+}.contact-hightlight{
+      display: flex;
+    padding: 43px 77px;
+    gap: 30px;
+}.contact-sml-call-box1{
+    border: 3px solid black;
+    height: 403px;
+    width: 340px;
+}.contact-row2{
+    display: flex;
+ justify-content: space-between; 
+ margin-top: 50px
+}.contact-big-box{
+    border: 3px solid black;
+    height: 419px;
+    width: 826px;
+}
