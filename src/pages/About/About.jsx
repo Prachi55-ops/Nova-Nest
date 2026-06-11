@@ -122,6 +122,24 @@ function About() {
 
 
                 </section>
+
+<section className='section-box5'>
+<div className=" about-row5">
+
+    <div className="col-sm-3"></div>
+    <div className="col-sm-2 service-box">
+
+    </div>
+    <div className="col-sm-2 service-box"></div>
+    <div className="col-sm-2 service-box"></div>
+    <div className="col-sm-3"></div>
+</div>
+
+
+
+</section>
+
+
             </div>
             <Footer />
         </>

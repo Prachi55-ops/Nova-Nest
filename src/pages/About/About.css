@@ -95,7 +95,7 @@
 
 }
 .section-box4{
- height: 675px;
+ height: 725px;
  width: 100%;
  max-width: 1200px;
  margin: 0 auto;
@@ -113,7 +113,7 @@
 
 }.designer-img img{
         height: 370px;
-    width: 284px;
+    width: 237px;
     margin-top: 30px;
 }.designer-img{
     background-color: #F5F5F5;
@@ -135,4 +135,20 @@
     margin-top: 14px;
     font-size: 20px;
 }
+.section-box5{
+    height: 253px;
+ width: 100%;
+ max-width: 1200px;
+ margin: 0 auto;
+}.about-row5{
+    display: flex;
+    gap: 50px;
+    align-items: center;
+    justify-content: center;
 
+}
+.service-box{
+    border: 2px solid black;
+    height: 161px;
+    width: 262px;
+}
