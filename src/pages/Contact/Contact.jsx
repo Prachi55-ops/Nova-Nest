@@ -22,7 +22,15 @@ function Contact() {
                     <div className=" contact-row2">
                       <div className="col-sm 1"></div>
                       <div className="col-sm 3 contact-sml-call-box1">
-                        <div className='contact-sml-call-box2'></div>
+                        <div className='contact-sml-call-box2'>
+                          <div className='call-box'>
+                            <div className='call-box2'> <div className='sml-call-box'> </div>
+                              <h4>Call to us</h4></div>
+                           
+                          </div>
+                          <div className='single-line'></div>
+                          <div className='mail-box'></div>
+                        </div>
                       </div>
                       <div className="col-sm 7 contact-big-box"></div>
                       <div className="col-sm 1"></div>
