@@ -12,6 +12,9 @@ import { TbMoneybag } from "react-icons/tb";
 import { FaInstagram } from "react-icons/fa";
 import { FiTwitter } from "react-icons/fi";
 import { RiLinkedinLine } from "react-icons/ri";
+import { TbTruckDelivery } from "react-icons/tb";
+import { PiHeadsetBold } from "react-icons/pi";
+import { RiSecurePaymentLine } from "react-icons/ri";
 function About() {
     return (
         <>
@@ -123,21 +126,43 @@ function About() {
 
                 </section>
 
-<section className='section-box5'>
-<div className=" about-row5">
+                <section className='section-box5'>
+                    <div className=" about-row5">
 
-    <div className="col-sm-3"></div>
-    <div className="col-sm-2 service-box">
-
-    </div>
-    <div className="col-sm-2 service-box"></div>
-    <div className="col-sm-2 service-box"></div>
-    <div className="col-sm-3"></div>
+                        <div className="col-sm-3"></div>
+                        <div className="col-sm-2 service-box">
+                            <div className='sm-service-box'>  <div className='service-sml-box1'>
+                                <div className='service-sml-box2'>
+                                    <div className='service-icon'> <TbTruckDelivery />
 </div>
 
+                                </div></div>
+                                <h4> Free and fast Delivery</h4>
+                                <p >Free delivery for all orders over $300 </p>
+                            </div>
+                        </div>
+                        <div className="col-sm-2 service-box">   <div className='sm-service-box'>  <div className='service-sml-box1'>
+                            <div className='service-sml-box2'>
+                                <div className='service-icon'> <PiHeadsetBold /></div>
+
+                            </div></div>
+                            <h4> 24/7  Customer Services </h4>
+                            <p > Friendly 24/7 Customer Support</p>
+                        </div></div>
+                        <div className="col-sm-2 service-box">   <div className='sm-service-box'>  <div className='service-sml-box1'>
+                            <div className='service-sml-box2'>
+                                <div className='service-icon'><RiSecurePaymentLine /></div>
+
+                            </div></div>
+                            <h4>Money back Guarantee</h4>
+                            <p > We return money within 30days</p>
+                        </div></div>
+                        <div className="col-sm-3"></div>
+                    </div>
 
 
-</section>
+
+                </section>
 
 
             </div>

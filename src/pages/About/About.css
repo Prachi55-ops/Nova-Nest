@@ -148,7 +148,36 @@
 
 }
 .service-box{
-    border: 2px solid black;
     height: 161px;
     width: 262px;
+}.sm-section-box5{
+    font-size: 22px;
+}.service-icon{
+    color: #ffffff;
+    padding: 9px 15px;
+    font-size: 38px;
+}.sm-service-box{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}.service-sml-box1{
+      height: 85px;
+    width: 85px;
+    background-color: #c7c9d2;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+
+}.service-sml-box2{
+       height: 66px;
+    width: 66px;
+    background-color: #000000;
+    border-radius: 50%;
+}.sm-service-box h4{
+    font-size: 17px;
+    margin-top: 19px;
+}.sm-service-box p{
+    font-size: 12px;
 }
