@@ -5,6 +5,8 @@ import Navbar from '../../components/Navbar/Navbar'
 import '../../components/Navbar/navbar.css'
 import { IoCallOutline } from "react-icons/io5";
 import { TbMailOpened } from "react-icons/tb";
+import Footer from '../../components/Footer/Footer'
+import '../../components/Footer/footer.css'
 function Contact() {
   return (
     <>
@@ -81,14 +83,14 @@ function Contact() {
       </div>
     </div>
 
-    <div className="">
+    <div className="textarea-box">
       <textarea
         className="form-control custom-textarea"
         placeholder="Your Message"
       ></textarea>
     </div>
 
-    <div className="text-end">
+    <div className="text-end ">
       <button className="send-btn">
         Send Message
       </button>
@@ -101,6 +103,7 @@ function Contact() {
                       <div className="col-sm 1"></div>
                     </div>
                     </div>
+                        <Footer />
     </>
   )
 }
