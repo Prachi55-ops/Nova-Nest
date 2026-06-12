@@ -44,7 +44,7 @@ function Login() {
            <p>Login</p> 
           </button>
             <button type="button" className="forgetpass " 
-          onClick={() => navigate("/")}>
+          onClick={() => navigate("/Error")}>
             
            <p>Forget Password ? </p> 
           </button>
