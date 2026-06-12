@@ -3,6 +3,7 @@ import { FiSearch } from "react-icons/fi";
 import { GoHeart } from "react-icons/go";
 import { HiOutlineShoppingCart } from "react-icons/hi2"
 import { RiUser3Line } from "react-icons/ri";
+import { NavLink } from 'react-router-dom';
 const Navbar = () => {
     return (
         <>
@@ -31,11 +32,14 @@ const Navbar = () => {
                         <div className="col-sm-1"> </div>
                         <div className='col-sm-4 item-box'>
                             <ul className='nav-item' >
-                                <li className='nav-hover' ><a className="nav-link active" aria-current="page" href="/">Home</a></li>
-                                <li className='nav-hover' ><a className="nav-link"  aria-current="page" href="/Contact">Contact</a> </li>
-                                <li className='nav-hover '><a className="nav-link"  aria-current="page" href="/About">About</a></li>
-                                <li className='nav-hover'><a className="nav-link active" aria-current="page" href="/Signup">Sign Up</a>
-                            
+                                <li className='nav-hover' ><NavLink to="/" className={({isActive})=> isActive ? "nav-link active" :"nav-link"
+                                }>Home</NavLink></li>
+                                <li className='nav-hover' ><NavLink to="/About" className={({isActive})=> isActive ? "nav-link active" :"nav-link"
+                                }>About</NavLink> </li>
+                                <li className='nav-hover '><NavLink to="/Contact" className={({isActive})=> isActive ? "nav-link active" :"nav-link"
+                                }>Contact</NavLink></li>
+                                <li className='nav-hover'><NavLink to="/Signup" className={({isActive})=> isActive ? "nav-link active" :"nav-link"
+                                }>Signup</NavLink>
 
                                 </li>
                             </ul>

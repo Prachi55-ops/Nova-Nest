@@ -38,11 +38,9 @@
 
 
  }
-
- .nav-hover:hover {
-     text-decoration: underline;
-     color: black;
- }
+.active{
+ border-bottom: 2px solid black;
+}
 
  .nav-link:hover {
      color: #c6cacf;

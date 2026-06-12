@@ -51,7 +51,53 @@ function Contact() {
                           </div>
                         </div>
                       </div>
-                      <div className="col-sm 7 contact-big-box"></div>
+                      <div className="col-sm 7 contact-big-box">
+<div className='contact-big-box2'>
+ 
+  <form>
+    <div className="name-box">
+      <div className="">
+        <input
+          type="text"
+          className="form-control custom-input"
+          placeholder="Your Name *"
+        />
+      </div>
+
+      <div className=" ">
+        <input
+          type="email"
+          className="form-control custom-input"
+          placeholder="Your Email *"
+        />
+      </div>
+
+      <div className=" ">
+        <input
+          type="text"
+          className="form-control custom-input"
+          placeholder="Your Phone *"
+        />
+      </div>
+    </div>
+
+    <div className="">
+      <textarea
+        className="form-control custom-textarea"
+        placeholder="Your Message"
+      ></textarea>
+    </div>
+
+    <div className="text-end">
+      <button className="send-btn">
+        Send Message
+      </button>
+    </div>
+  </form>
+</div>
+
+
+                      </div>
                       <div className="col-sm 1"></div>
                     </div>
                     </div>
