@@ -3,6 +3,8 @@ import Topbar from '../../components/Topbar/Topbar'
 import '../../components/Topbar/topbar.css'
 import Navbar from '../../components/Navbar/Navbar'
 import '../../components/Navbar/navbar.css'
+import { IoCallOutline } from "react-icons/io5";
+import { TbMailOpened } from "react-icons/tb";
 function Contact() {
   return (
     <>
@@ -24,12 +26,29 @@ function Contact() {
                       <div className="col-sm 3 contact-sml-call-box1">
                         <div className='contact-sml-call-box2'>
                           <div className='call-box'>
-                            <div className='call-box2'> <div className='sml-call-box'> </div>
+                            <div className='call-box2'> <div className='sml-call-box'><p><IoCallOutline /></p> </div>
                               <h4>Call to us</h4></div>
-                           
+                           <p className='call-text'>We are available 24/7 , 7 days a week
+                            
+                            
+                           <p> Phone: +881122775566</p>
+                          </p>
                           </div>
+                          
+
+
                           <div className='single-line'></div>
-                          <div className='mail-box'></div>
+                          <div className='mail-box'>
+                              <div className='call-box2'> <div className='sml-call-box'><p><TbMailOpened /></p> </div>
+                              <h4>Write to Us</h4></div>
+                           <p className='call-text'>Fill out our form and we will contact you within 24hours
+                            
+                            
+                           <p> Emails: Customer@NovaNest.com </p>
+                             <p> Emails: Support@NovaNest.com </p>
+                          </p>
+                            
+                          </div>
                         </div>
                       </div>
                       <div className="col-sm 7 contact-big-box"></div>
