@@ -8,9 +8,31 @@ import "../../components/Footer/footer.css";
 import { FaApple } from "react-icons/fa";
 import { HiOutlineArrowRight } from "react-icons/hi2";
 import iphoneImage from "../../assets/images/iphone-14-pro-1.png";
+import { useState, useEffect } from 'react';
+
+
 
 function Home() {
+   const targetDate = new Date("2026-06-20T00:00:00").getTime();
+
+  const [timeLeft, setTimeLeft] = useState(targetDate - Date.now());
+
+  useEffect(() => {
+    const timer = setInterval(() => {
+      setTimeLeft(targetDate - Date.now());
+    }, 1000);
+
+    return () => clearInterval(timer);
+  }, []);
+
+  const days = Math.floor(timeLeft / (1000 * 60 * 60 * 24));
+  const hours = Math.floor((timeLeft / (1000 * 60 * 60)) % 24);
+  const minutes = Math.floor((timeLeft / (1000 * 60)) % 60);
+  const seconds = Math.floor((timeLeft / 1000) % 60);
+
   return (
+
+
     <>
       <Topbar />
       <Navbar />
@@ -87,9 +109,43 @@ function Home() {
 <div className='col-sm-1'></div>
         </div>
       </div>
+
+      <div className=' flase-case-container'>
+        <div className='flase-row'>
+          <div className='flash-box2'><div className='flase-box'>
+</div>
+ <p >Todays's </p>
+        </div>
+        <div className='count-box'>
+          <h3>Flash Sales</h3>
+              <div className="">
+      <div>
+        <p>Days</p>
+        <h2>{days}</h2>
+      </div>
+
+      <div>
+        <p>Hours</p>
+        <h2>{hours}</h2>
+      </div>
+
+      <div>
+        <p>Minutes</p>
+        <h2>{minutes}</h2>
+      </div>
+
+      <div>
+        <p>Seconds</p>
+        <h2>{seconds}</h2>
+      </div>
+    </div>
+        </div>
+        </div>
+      </div>
       <Footer />
     </>
   );
 }
 
 export default Home;
+
