@@ -118,7 +118,6 @@ text-underline-offset: 10px;
 .flase-case-container{
     width: auto;
     min-height: 600px;
-    background-color: #cec5c5;
 }.flase-row{
     min-height: 124px;
     margin-left: 87px;
@@ -138,10 +137,47 @@ text-underline-offset: 10px;
 }.count-box{
    display: flex;
     margin-top: 16px;
+    height: 66px;
+    justify-content: space-between;
 }.count-box h3{
     color: #000000;
     font-size: 32px;
         font-weight: 600;
-}.counter{
-    display: flex;
+}.countdown {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 11px;
+      margin-bottom: 21px;
+
+}
+
+.time-box {
+  text-align: center;
+}
+
+.time-box h6 {
+  font-size: 18px;
+    font-weight: 500;
+}
+
+.time-box h1 {
+  font-size: 35px;
+  font-weight: bold;
+}
+
+.countdown span {
+ font-size: 33px;
+    color: #ff6b6b;
+font-weight: bold;
+    margin-top: 20px;
+}.see-all-btn{
+       height: 60px;
+    width: 191px;
+    background-color: #DB4444;
+    border-radius: 7px;
+    border: none;
+}.see-all-btn p{
+    font-size: 22px;
+    color: #ffffff;
 }

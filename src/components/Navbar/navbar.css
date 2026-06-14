@@ -40,6 +40,8 @@
  }
 .active{
  border-bottom: 2px solid black;
+}.active-not {
+    border: none;
 }
 
  .nav-link:hover {

@@ -118,29 +118,47 @@ function Home() {
         </div>
         <div className='count-box'>
           <h3>Flash Sales</h3>
-              <div className="">
-      <div>
-        <p>Days</p>
-        <h2>{days}</h2>
-      </div>
+        
+      <div className="countdown">
+  <div className="time-box">
+    <h6>Days</h6>
+    <h1>{days}</h1>
+  </div>
 
-      <div>
-        <p>Hours</p>
-        <h2>{hours}</h2>
-      </div>
+  <span>:</span>
 
-      <div>
-        <p>Minutes</p>
-        <h2>{minutes}</h2>
-      </div>
+  <div className="time-box">
+    <h6>Hours</h6>
+    <h1>{hours}</h1>
+  </div>
 
-      <div>
-        <p>Seconds</p>
-        <h2>{seconds}</h2>
-      </div>
-    </div>
+  <span>:</span>
+
+  <div className="time-box">
+    <h6>Minutes</h6>
+    <h1>{minutes}</h1>
+  </div>
+
+  <span>:</span>
+
+  <div className="time-box">
+    <h6>Seconds</h6>
+    <h1>{seconds}</h1>
+  </div>
+</div>
+
+  
+ <button type="submit" className="see-all-btn ">
+           <p>See All</p> 
+          </button>
+
+   </div>
+
+
+   <div className='row-product'></div>
+
         </div>
-        </div>
+
       </div>
       <Footer />
     </>
