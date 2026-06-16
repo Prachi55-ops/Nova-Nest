@@ -44,34 +44,7 @@ const loginUser = async (req, res) => {
 
     }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 }
-
-
-
-
-
-
-
 
 //Routes for user register
 
