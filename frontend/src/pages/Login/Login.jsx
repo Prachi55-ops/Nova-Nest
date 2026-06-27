@@ -32,7 +32,7 @@ function Login() {
         localStorage.setItem("token", response.data.token);
 
         if (isAdmin) {
-          navigate("/admin/dashboard");
+          navigate("/admin/DashboardAdmin");
         } else {
           navigate("/");
         }
