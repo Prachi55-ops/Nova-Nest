@@ -12,6 +12,8 @@ import Contact from './pages/Contact/Contact'
 import './pages/Contact/Contact.css'
 import Error from './pages/404 error/Error'
 import './pages/404 error/Error.css'
+
+
 const App = () => {
   return (
     <>
@@ -23,6 +25,10 @@ const App = () => {
        <Route path='/About' element={<About/>}/>
        <Route path='/Contact' element={<Contact/>}/>
        <Route path='/Error' element={<Error/>}/>
+       
+
+
+       
       </Routes>
 
     </>

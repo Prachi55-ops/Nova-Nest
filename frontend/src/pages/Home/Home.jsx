@@ -104,8 +104,10 @@ function Home() {
                 />
               </div>
 
-            </div>
-          </div>
+            </div> </div>
+
+
+            
 <div className='col-sm-1'></div>
         </div>
       </div>

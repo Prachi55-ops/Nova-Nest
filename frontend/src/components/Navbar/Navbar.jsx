@@ -32,7 +32,7 @@ const Navbar = () => {
                         <div className="col-sm-1"> </div>
                         <div className='col-sm-4 item-box'>
                             <ul className='nav-item' >
-                                <li className='nav-hover' ><NavLink to="/" className={({isActive})=> isActive ? "nav-link active-not" :"nav-link"
+                                <li className='nav-hover' ><NavLink to="/" className={({isActive})=> isActive ? "nav-link active" :"nav-link"
                                 }>Home</NavLink></li>
                                 <li className='nav-hover' ><NavLink to="/About" className={({isActive})=> isActive ? "nav-link active" :"nav-link"
                                 }>About</NavLink> </li>

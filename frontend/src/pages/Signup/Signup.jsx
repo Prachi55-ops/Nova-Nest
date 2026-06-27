@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useState } from 'react'
 import Topbar from '../../components/Topbar/Topbar'
 import '../../components/Topbar/topbar';
 import Navbar from '../../components/Navbar/Navbar'
@@ -6,9 +6,44 @@ import '../../components/Navbar/navbar.css'
 import Footer from '../../components/Footer/Footer'
 import '../../components/Footer/footer.css'
 import { FcGoogle } from "react-icons/fc";
-import { useNavigate } from 'react-router-dom';
-function Signup()
- { 
+import { useNavigate } from 'react-router-dom'; 
+import axios from 'axios';
+
+
+function Signup() {
+
+  const [name, setName] = useState("")
+const [email, setEmail] = useState("")
+const [password, setPassword] = useState("")
+
+
+
+ 
+  const onSubmitHandler = async (e) => {
+  e.preventDefault();
+
+  try {
+    const response = await axios.post(
+      "http://localhost:4000/api/user/register",
+      {
+        name,
+        email,
+        password,
+      }
+    );
+
+    if (response.data.success) {
+      alert("Registration Successful");
+      // Agar backend token bhej raha hai
+      localStorage.setItem("token", response.data.token);
+    } else {
+      alert(response.data.message);
+    }
+  } catch (error) {
+    alert(error.response?.data?.message || "Registration Failed");
+  }
+
+};
    const navigate = useNavigate();
 
   return (
@@ -23,14 +58,16 @@ function Signup()
           <div className='col-sm-6 from-box'> 
             <h2 > Create an Account</h2>
             <p> Enter your details below</p>
-        <form>
+        <form onSubmit={onSubmitHandler}>
 
           <div className="form-input">
            
             <input
               type="text"
               className="form-control"
+              onChange={(e) => setName(e.target.value)}
               placeholder="Name"
+              value={name}
             />
           </div>
 
@@ -39,6 +76,9 @@ function Signup()
             <input
               type="email"
               className="form-control"
+              onChange={(e) => setEmail(e.target.value)}
+              value={email}
+
               placeholder="Email or Phone number"
             />
           </div>
@@ -48,6 +88,9 @@ function Signup()
             <input
               type="password"
               className="form-control"
+              onChange={(e) => setPassword(e.target.value)}
+              value={password}
+
               placeholder=" password"
             />
           </div>
