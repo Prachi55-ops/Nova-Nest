@@ -1,9 +1,9 @@
 import React from 'react'
-
+import NavbarAdmin from '../../components/NavbarAdmin/NavbarAdmin'
 function DashboardAdmin() {
   return (
     <>
-      <h1> enzjlvxfjxiov</h1>
+      <NavbarAdmin/>
     </>
   )
 }
