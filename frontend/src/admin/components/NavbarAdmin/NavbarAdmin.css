@@ -82,11 +82,13 @@ color: #9096A2;
 .dark-theme .nav-icon,
 .dark-theme .profile-icon{
     color:white;
-}.form-control{
- height: 27px;
-   width: 290px;
-   border-radius: 40px; 
-   margin-top: 4px;
+}.form-control-admin{
+ height: 28px;
+    width: 290px;
+    border-radius: 40px;
+    margin-top: 3px;
+    border: none;
+    font-size: 17px;
    
 }.admin-search-box{
 border: 1px solid#9096A2;

@@ -85,10 +85,11 @@ function Login() {
                 />
               </div>
 
-              <div style={{ margin: "10px 0" }}>
-                <label>
+              <div    className="checkbox">
+                <label >
                   <input
                     type="checkbox"
+                  
                     checked={isAdmin}
                     onChange={() => setIsAdmin(!isAdmin)}
                   />{" "}
@@ -97,7 +98,7 @@ function Login() {
               </div>
 
               <button type="submit" className="login2-btn">
-                Login
+               <p>Login</p> 
               </button>
 
               <button
@@ -105,7 +106,7 @@ function Login() {
                 className="forgetpass"
                 onClick={() => navigate("/Error")}
               >
-                Forget Password?
+               <p> Forget Password?</p>
               </button>
             </form>
           </div>

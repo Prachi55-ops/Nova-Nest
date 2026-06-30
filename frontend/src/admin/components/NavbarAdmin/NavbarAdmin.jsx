@@ -8,6 +8,7 @@ import { IoMdNotificationsOutline } from "react-icons/io";
 import { TiWeatherSunny } from "react-icons/ti";
 import { IoMoonOutline } from "react-icons/io5";
 import { TbMailCheck } from "react-icons/tb";
+import { VscSettingsGear } from "react-icons/vsc";
 
 function NavbarAdmin() {
   const [darkMode, setDarkMode] = useState(false);
@@ -46,7 +47,7 @@ function NavbarAdmin() {
                 </div>
                 <input
                   type="text"
-                  className="form-control"
+                  className="form-control-admin"
                   placeholder="Search..."
 
 
@@ -86,6 +87,16 @@ function NavbarAdmin() {
                 }}
               >
               <p> <TbMailCheck /></p> 
+              </button>
+                 <button
+                type="button"
+                className="logout-icon"
+                onClick={() => {
+                  localStorage.removeItem("token");
+                  window.location.href = "/login";
+                }}
+              >
+              <p> <VscSettingsGear /></p> 
               </button>
                <button
                 type="button"
