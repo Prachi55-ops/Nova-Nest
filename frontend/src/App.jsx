@@ -26,6 +26,8 @@ const App = () => {
        <Route path='/Contact' element={<Contact/>}/>
        <Route path='/Error' element={<Error/>}/>
        <Route path='/admin/DashboardAdmin' element={<DashboardAdmin/>}/>
+       
+       
 
 
        

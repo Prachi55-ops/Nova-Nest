@@ -1,42 +1,104 @@
-.admin-navbar {
-  background-color: #212529;
-  padding: 12px 30px;
-  height: 220px !important;
-
-}.admin-navbar-container{
-  display: flex;
+.container-admin-navbar{
+   background-color: #ffffff;
+   height: 80px;
+   border-bottom: 1px solid #9096A2;
+}.Admin-logo{
+   height: 67px;
+   margin-top: 22px;
+   display: flex;
+  margin-left: 50px;
+   
+}.logout-button{
+    display: flex;
+    height: 75px;
+    width: 220px;
+    justify-content: space-between;
 }
 
-.admin-logo {
-  font-size: 24px;
-  font-weight: 700;
-  color: #fff !important;
+.admin-name{
+color: #9096A2;
+    font-size: 25px;
+    font-weight: 500;
+    padding: 4px 6px;
+   
+}.navbar-admin{
+   display: flex;
+   justify-content: space-between;
+  
+}.logout-icon{
+   background-color: #ffffff;
+    height: 51px;
+    width: 64px;
+    border: none;
+    margin-top: 22px;
+}.logout-icon p{
+   font-size: 27px;
+  color: #9096A2;
+}.admin-icon{
+         font-size: 27px;
+    margin-right: 10px;
+    color: black;
+    padding: 5px 11px;
+      
 }
 
-.admin-nav-link {
-  color: #fff !important;
-  font-size: 16px;
-  margin-left: 18px;
-  transition: 0.3s;
+
+
+.theme-btn{
+    width:40px;
+    height:40px;
+    border:none;
+    border-radius:50%;
+    background: #ffddc4;
+    color:#d05d0b;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    cursor:pointer;
+    transition:.3s;
+    font-size: 25px;
+    margin-top: 22px;
 }
 
-.admin-nav-link:hover {
-  color: #0dcaf0 !important;
+
+
+.nav-icon:hover{
+    color:#67686a;
 }
 
-.logout-btn {
-  margin-left: 20px;
-  border-radius: 6px;
-  padding: 6px 18px;
+
+.dark-theme{
+    background:#1f2937;
+    color:white;
+}.dark-theme-button{
+   display: flex;
 }
 
-@media (max-width: 991px) {
-  .admin-nav-link {
-    margin: 10px 0;
-  }
+.dark-theme .navbar{
+    background:#2d3748 !important;
+}
 
-  .logout-btn {
-    margin: 10px 0;
-    width: 100%;
-  }
+
+.dark-theme .nav-icon,
+.dark-theme .profile-icon{
+    color:white;
+}.form-control{
+ height: 27px;
+   width: 290px;
+   border-radius: 40px; 
+   margin-top: 4px;
+   
+}.admin-search-box{
+border: 1px solid#9096A2;
+    border-radius: 40px;
+    width: 387px;
+    display: flex;
+    margin-top: 20px;
+    height: 39px;
+
+}.search-icon{
+    color: #9096A2;
+    padding: 6px 20px;
+    font-size: 21px;
+   
 }

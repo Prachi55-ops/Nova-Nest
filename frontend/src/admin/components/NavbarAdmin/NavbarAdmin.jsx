@@ -1,84 +1,116 @@
-import React from 'react'
-   import { Link } from "react-router-dom";
+import React, { useState, useEffect } from "react";
 import "./NavbarAdmin.css";
+import { FaSearch, FaSun, FaMoon } from "react-icons/fa";
+import { GrLogout } from "react-icons/gr";
+import { FaUserTie } from "react-icons/fa6";
+import { MdOutlineSearch } from "react-icons/md";
+import { IoMdNotificationsOutline } from "react-icons/io";
+import { TiWeatherSunny } from "react-icons/ti";
+import { IoMoonOutline } from "react-icons/io5";
+import { TbMailCheck } from "react-icons/tb";
 
 function NavbarAdmin() {
+  const [darkMode, setDarkMode] = useState(false);
+
+  useEffect(() => {
+    if (darkMode) {
+      document.body.classList.add("dark-theme");
+    } else {
+      document.body.classList.remove("dark-theme");
+    }
+  }, [darkMode]);
+
   return (
     <>
-   
-   
+      <div className="container-admin-navbar">
+        <div className="row">
+          <nav className="navbar-admin">
 
-    <nav className=" admin-navbar">
-      <div className="container admin-navbar-container">
+            <div className="col-sm-3 Admin-logo">
+              <div className="admin-icon">     <FaUserTie /> </div>
+              <div className="admin-name">
+            Welcome, Admin..
+      </div>
+            </div>
 
-        <Link className="navbar-brand admin-logo" to="/admin/dashboard">
-          Prachi..
-        </Link>
+          
 
-        <button
-          className="navbar-toggler"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#adminNavbar"
-        >
-          <span className="navbar-toggler-icon"></span>
-        </button>
+            <div className="col-sm-3">
+              <form
+                className="admin-search-box"
 
-        <div className="collapse navbar-collapse" id="adminNavbar">
-          <ul className="navbar-nav ms-auto">
+              >
+                <div className="search-icon">
 
-            <li className="nav-item">
-              <Link className="nav-link admin-nav-link" to="/admin/dashboard">
-                Dashboard
-              </Link>
-            </li>
+                  <MdOutlineSearch />
+                </div>
+                <input
+                  type="text"
+                  className="form-control"
+                  placeholder="Search..."
 
-            <li className="nav-item">
-              <Link className="nav-link admin-nav-link" to="/admin/add-product">
-                Add Product
-              </Link>
-            </li>
 
-            <li className="nav-item">
-              <Link className="nav-link admin-nav-link" to="/admin/products">
-                Products
-              </Link>
-            </li>
+                />
 
-            <li className="nav-item">
-              <Link className="nav-link admin-nav-link" to="/admin/orders">
-                Orders
-              </Link>
-            </li>
+              </form>
+            </div>
 
-            <li className="nav-item">
-              <Link className="nav-link admin-nav-link" to="/admin/users">
-                Users
-              </Link>
-            </li>
+            <div className="col-sm-5 logout-button">
+             
 
-            <li className="nav-item">
-              <button
-                className="btn btn-danger logout-btn"
+              <div className="dark-theme-button">
+                <button
+                  type="button"
+                  className="theme-btn"
+                  onClick={() => setDarkMode(!darkMode)}
+                  title="Switch Theme"
+                >
+                  {darkMode ? <IoMoonOutline />: <TiWeatherSunny /> }
+                </button>
+     <button
+                type="button"
+                className="logout-icon"
                 onClick={() => {
                   localStorage.removeItem("token");
                   window.location.href = "/login";
                 }}
               >
-                Logout
+              <p> <IoMdNotificationsOutline /></p> 
               </button>
-            </li>
-
-          </ul>
+                <button
+                type="button"
+                className="logout-icon"
+                onClick={() => {
+                  localStorage.removeItem("token");
+                  window.location.href = "/login";
+                }}
+              >
+              <p> <TbMailCheck /></p> 
+              </button>
+               <button
+                type="button"
+                className="logout-icon"
+                onClick={() => {
+                  localStorage.removeItem("token");
+                  window.location.href = "/login";
+                }}
+              >
+              <p> <GrLogout /></p> 
+              </button>
+              
+                
+              </div>
+             
+            </div>
+            <div className="col-sm-1">
+                
+            </div>
+          </nav>
         </div>
-
       </div>
-    </nav>
- 
-
-
     </>
-  )
+  );
 }
 
-export default NavbarAdmin
+export default NavbarAdmin;
+
